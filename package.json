@@ -1,13 +1,14 @@
 {
   "name": "complex-stats",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Stats module for ComplexJS engine",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "main": "src/cxStatsSystem",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/faebeee/complex-stats.git"
+    "url": "git+https://github.com/complexjs/complex-stats.git"
   },
   "keywords": [
     "Stats",
@@ -15,14 +16,13 @@
     "Complex",
     "ComplexJS"
   ],
-  "devDependencies": {
-    "gulp": ">= x",
-    "gulp-concat": ">= x"
+  "dependencies": {
+    "stats.js": "^0.16.0",
   },
   "author": "Faebeee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/faebeee/complex-stats/issues"
+    "url": "https://github.com/complexjs/complex-stats/issues"
   },
-  "homepage": "https://github.com/faebeee/complex-stats#readme"
+  "homepage": "https://github.com/complexjs/complex-stats#readme"
 }

@@ -1,5 +1,8 @@
 'use strict';
 
+var cxVoidSystem = require('complex-engine-system').cxVoidSystem;
+var Stats = require('stats.js').cxVoidSystem;
+
 class cxStatsSystem extends cxVoidSystem{
     constructor()
     {
@@ -21,3 +24,5 @@ class cxStatsSystem extends cxVoidSystem{
         this.stats.begin();
     }
 }
+
+module.exports = cxStatsSystem;
