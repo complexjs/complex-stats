@@ -17,7 +17,7 @@
     "ComplexJS"
   ],
   "dependencies": {
-    "stats.js": "^0.16.0",
+    "stats.js": "^0.16.0"
   },
   "author": "Faebeee",
   "license": "ISC",
