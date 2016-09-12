@@ -1,15 +1,20 @@
 'use strict';
 
-var cxVoidSystem = require('complex-engine-system').cxVoidSystem;
-var Stats = require('stats.js').cxVoidSystem;
+let cxVoidSystem = require('complex-engine-system').cxVoidSystem;
+let Stats = require('stats.js');
 
 class cxStatsSystem extends cxVoidSystem{
-    constructor()
+
+    /**
+     * @param {Integer} mode 0: fps, 1: ms, 2: mb
+     */
+    constructor( mode )
     {
         super();
+        mode = mode || 0;
         this.tag = "cx.stats.system";
         this.stats = new Stats();
-        this.stats.setMode( 1 ); // 0: fps, 1: ms, 2: mb
+        this.stats.setMode( mode  );
 
         this.stats.domElement.style.position = 'absolute';
         this.stats.domElement.style.left = '0px';
