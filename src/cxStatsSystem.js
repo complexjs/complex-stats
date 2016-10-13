@@ -1,6 +1,6 @@
 'use strict';
 
-let cxVoidSystem = require('complex-engine-system').cxVoidSystem;
+let cxVoidSystem = require('complex-engine').cxVoidSystem;
 let Stats = require('stats.js');
 
 class cxStatsSystem extends cxVoidSystem{
