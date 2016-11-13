@@ -3,7 +3,7 @@
 let cxVoidSystem = require('complex-engine').cxVoidSystem;
 let Stats = require('stats.js');
 
-class cxStatsSystem extends cxVoidSystem{
+module.exports = class cxStatsSystem extends cxVoidSystem{
 
     /**
      * @param {Integer} mode 0: fps, 1: ms, 2: mb
@@ -30,4 +30,3 @@ class cxStatsSystem extends cxVoidSystem{
     }
 }
 
-module.exports = cxStatsSystem;

@@ -1,6 +1,6 @@
 {
   "name": "complex-stats",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Stats module for ComplexJS engine",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
     "ComplexJS"
   ],
   "dependencies": {
-    "complex-engine": "^3.2.1",
+    "complex-engine": "^4.0.0",
     "stats.js": "^0.16.0"
   },
   "author": "Faebeee",
